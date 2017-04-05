@@ -23,7 +23,7 @@ class KeyboardController {
     let texto_obtido = this.texto.innerHTML = localStorage.getItem("decifre-o-livro-com");
     if(texto_obtido !== null)
     {
-      alert('Texto carregado com sucesso');
+      //alert('Texto carregado com sucesso');
     }
   }
 }
